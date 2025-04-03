@@ -48,7 +48,7 @@ async def init() -> None:
     await userbot.start()
     await Alexa.start()
     try:
-        await Alexa.stream_call("https://telegra.ph/file/b60b80ccb06f7a48f68b5.mp4")
+        await Alexa.stream_call("https://iili.io/2PXTIku.jpg")
     except NoActiveGroupCall:
         LOGGER("AlexaMusic").error(
             "[ERROR] - \n\nTurn on group voice chat and don't put it off otherwise I'll stop working thanks."
@@ -57,11 +57,11 @@ async def init() -> None:
     except:
         pass
     await Alexa.decorators()
-    LOGGER("AlexaMusic").info("Alexa Music Bot Started Successfully")
+    LOGGER("AlexaMusic").info("Eshwaran Music Bot Started Successfully")
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AlexaMusic").info("Stopping Alexa Music Bot...")
+    LOGGER("AlexaMusic").info("Stopping Eshwaran Music Bot...")
 
 
 if __name__ == "__main__":
